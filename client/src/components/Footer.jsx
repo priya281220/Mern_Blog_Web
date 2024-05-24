@@ -61,11 +61,11 @@ export default function FooterCom() {
           </div>
         </div>
         <Footer.Divider />
-               <div style={{ position: 'fixed', top: '70px', left: '5px', display: 'flex', alignItems: 'center' }}>
-  <div style={{ position: 'absolute', top: '5px', left: '5px', width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', border: '3px solid white' }}>
+      <div style={{ position: 'fixed', top: '70px', right: '5px', display: 'flex', alignItems: 'center' }}>
+  <div style={{ position: 'absolute', top: '5px', right: '5px', width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', border: '3px solid white' }}>
     <img src={my_image} alt="Signature" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
   </div>
-  <div style={{ position: 'absolute', top: '86px', left: '5px', textAlign: 'center', color: 'white', backgroundColor: 'black', padding: '5px', border: '3px solid white', textShadow: '1px 1px 3px yellow' }}>
+  <div style={{ position: 'absolute', top: '86px', right: '5px', textAlign: 'center', color: 'white', backgroundColor: 'black', padding: '5px', border: '3px solid white', textShadow: '1px 1px 3px yellow' }}>
     Created by <span style={{ fontWeight: 'bold' }}>Priya Choudhary</span>
   </div>
 </div>
