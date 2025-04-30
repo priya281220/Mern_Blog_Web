@@ -13,7 +13,6 @@ export default function FooterCom() {
               className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
             >
               <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-                Priya's
               </span>
               Blog
             </Link>
@@ -34,7 +33,7 @@ export default function FooterCom() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Priya's Blog
+                   Blog
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -62,12 +61,12 @@ export default function FooterCom() {
         </div>
         <Footer.Divider />
       <div style={{ position: 'fixed', top: '70px', right: '5px', display: 'flex', alignItems: 'center' }}>
-  <div style={{ position: 'absolute', top: '5px', right: '5px', width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', border: '3px solid white' }}>
+{/*   <div style={{ position: 'absolute', top: '5px', right: '5px', width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', border: '3px solid white' }}>
     <img src={my_image} alt="Signature" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
   </div>
   <div style={{ position: 'absolute', top: '86px', right: '5px', textAlign: 'center', color: 'white', backgroundColor: 'black', padding: '5px', border: '3px solid white', textShadow: '1px 1px 3px yellow' }}>
     Created by <span style={{ fontWeight: 'bold' }}>Priya Choudhary</span>
-  </div>
+  </div> */}
 </div>
         <div className='w-full sm:flex sm:items-center sm:justify-between'>
           <Footer.Copyright
